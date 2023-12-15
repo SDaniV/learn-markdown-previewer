@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #87b5b5;
+}
+
+#center-box {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#main {
+  height: 100vh;
+  width: auto;
+}
+
+#preview {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4aa3a3;
+  font-family: "Russo One";
+  font-size: 16px;
+  height: 100%;
+  min-height: 200px;
+  width: 99%;
+  overflow: auto;
+}
+
+.editorWrap {
+  max-width: 600px;
+  margin: 1.125rem auto;
+}
+
+.editorWrap textarea {
+  margin-bottom: -5px;
+  min-height: 200px;
+  width: 99%;
+}
+
+.fa.fa-free-code-camp {
+  margin-right: 3px; 
+}
+
+.previewWrap {
+  max-width: 900px;
+  margin: 1.125rem auto;
+}
+
+.toolbar {
+  background-color: #4aa3a3;
+  border-style: solid;
+  font-family: "Russo One";
+  font-size: 16px;
+  padding: 0.3rem;
+  width: 99%;
+}
